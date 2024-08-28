@@ -4,20 +4,26 @@ body {
 }
 body .name {
   text-align: center;
-}
-body a {
-  transition: 500ms;
-}
-body a:hover {
-  color: aqua;
+  font-family: Segoe Script, monospace;
+  text-size: 1.3em;
 }
 body .pp {
   border-radius: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
+}
+body .intro {
+  text-align: center;
+  font-size: 1.5em;
+  font-family: monospace;
+}
+body .desc {
+  text-align: center;
+  font-size: 1.5em;
+  font-family: monospace;
 }
 
 /*# sourceMappingURL=index.css.map */

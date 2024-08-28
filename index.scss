@@ -4,14 +4,8 @@ body {
     
     .name {
         text-align: center;
-    }
-
-    a {
-        transition: 500ms;
-    }
-
-    a:hover {
-        color: aqua;
+        font-family: Segoe Script, monospace;
+        text-size: 1.3em;
     }
 
     .pp {
@@ -19,8 +13,20 @@ body {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        height: 250px;
-        width: 250px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .intro {
+        text-align: center;
+        font-size: 1.5em;
+        font-family: monospace;
+    }
+
+    .desc {
+        text-align: center;
+        font-size: 1.5em;
+        font-family: monospace;
     }
 
 }
