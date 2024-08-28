@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+  color: white;
+}
+body .name {
+  text-align: center;
+}
+body a {
+  transition: 500ms;
+}
+body a:hover {
+  color: aqua;
+}
+body .pp {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  width: 250px;
+}
+
+/*# sourceMappingURL=index.css.map */

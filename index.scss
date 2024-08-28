@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    color: white;
+    
+    .name {
+        text-align: center;
+    }
+
+    a {
+        transition: 500ms;
+    }
+
+    a:hover {
+        color: aqua;
+    }
+
+    .pp {
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 250px;
+        width: 250px;
+    }
+
+}
