@@ -1,11 +1,15 @@
+@font-face {
+  font-family: "Segoe Script";
+  src: url("./ss.woff2") format("woff2");
+}
 body {
   background-color: black;
   color: white;
 }
 body .name {
   text-align: center;
-  font-family: Segoe Script, monospace;
-  text-size: 1.3em;
+  font-family: "Segoe Script", "monospace";
+  font-size: 1.3em;
 }
 body .pp {
   border-radius: 50%;
@@ -18,12 +22,33 @@ body .pp {
 body .intro {
   text-align: center;
   font-size: 1.5em;
-  font-family: monospace;
+  font-family: "monospace";
 }
 body .desc {
   text-align: center;
+  font-size: 1.6em;
+  font-family: "monospace";
+}
+body .l1 {
+  background-color: white;
+  color: white;
+  height: 5px;
+}
+body .d1 .b1 {
+  padding: 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  width: 105px;
+  height: 55px;
+  text-align: center;
+  border-radius: 10px;
+  line-height: 50px;
+  font-family: "monospace";
   font-size: 1.5em;
-  font-family: monospace;
 }
 
-/*# sourceMappingURL=index.css.map */
+/* Please say im bad at Sass *//*# sourceMappingURL=index.css.map */
